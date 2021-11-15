@@ -46,7 +46,7 @@ class ModelFactory():
                     ('linear', [sizes[-1], 640], '')
                 ]
 
-        elif dataset == "cifar100":
+        elif dataset in ["cifar100", "cifar10"]:
 
 
             if model_type == 'pc_cnn':
